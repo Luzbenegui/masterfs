@@ -1,0 +1,8 @@
+.NotFound {
+  height: calc(100% - 56px);
+  background-color: #fee24b;
+  background-image: url("/images/notfound.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

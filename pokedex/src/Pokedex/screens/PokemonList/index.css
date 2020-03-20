@@ -1,0 +1,10 @@
+.Column {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+}
+
+.LoadMore {
+  margin: 10px !important;
+}

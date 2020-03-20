@@ -1,0 +1,38 @@
+.PokemonDetails {
+  height: calc(100% - 56px);
+  justify-content: space-around;
+}
+
+.AvatarRow,
+.InfoTableRow,
+.StatsTableRow {
+  margin: 0 10px;
+}
+
+.Column {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+}
+
+.Avatar {
+  height: 150px !important;
+  width: 150px !important;
+  background-color: beige;
+}
+
+.Row {
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.CaughtAvatar {
+  background-color: green !important;
+}
+
+.NotCaughtAvatar {
+  background-color: red !important;
+}
